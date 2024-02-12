@@ -7,5 +7,5 @@ tip_as_percent=  tip / 100
 total=bill*tip_as_percent
 total_bill=bill+total
 bill_per_person=total_bill/people
-final=round(bill_per_person,2)
+final="{:.2f}".format(bill_per_person)
 print(f"Each person should pay : ${final}")

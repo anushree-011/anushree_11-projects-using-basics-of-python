@@ -6,7 +6,7 @@ from words import word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
-game = False
+game = 0
 lives = 6
 
 

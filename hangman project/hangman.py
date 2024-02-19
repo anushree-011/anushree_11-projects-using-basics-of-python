@@ -35,12 +35,12 @@ while not game:
         print(f"You guessed {guess}, that's not in the word. You lose a life.")
         lives -= 1
         if lives == 0:
-            game = True
+            game = 1
             print("You lose.")
     
     print(f"{' '.join(display)}")
 
     if "_" not in display:
-        game = True
+        game = 1
         print("You win.")
     print(stages[lives])

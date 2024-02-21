@@ -2,8 +2,6 @@ from art import logo
 from replit import clear
 auction_bid={}
 go=1
-def auction(name,bid):
-    auction_bid[name]=bid
 
 while(go):
     print(logo)

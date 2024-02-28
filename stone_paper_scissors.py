@@ -59,7 +59,7 @@ for i in range(10):
 print(f"Your score:{you}")
 print(f"Computer score:{computer}")
 if you>computer:
-    print("YOUR THE WINNER!!")
+    print("YOU ARE THE WINNER!!")
 elif computer>you:
     print("COMPUTER IS THE WINNER")
 else:

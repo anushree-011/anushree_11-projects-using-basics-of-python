@@ -25,7 +25,7 @@ def users_guess(guess):
         
     elif guess==number:
         print("you guessed correct number")
-        print("you win")
+        print("you wIn")
 
 while attempts>0 :
     print(f"you have {attempts} attempts ")

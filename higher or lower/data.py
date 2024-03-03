@@ -27,7 +27,7 @@ data = [
         'name': 'Selena Gomez',
         'follower_count': 174,
         'description': 'Musician and actress',
-        'country': 'United States'
+        'country': 'USA'
     },
     {
         'name': 'Kylie Jenner',
